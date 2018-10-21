@@ -1,0 +1,651 @@
+body,html{
+    height                      : 100%;
+}
+body{
+    margin                      : 0;
+    font-family                 : 'Lato', sans-serif;
+    background-color            : lightgrey;    
+}
+
+
+header.header_index {
+	text-align : center;
+	font-family : Arial;
+	color: #b5b5b5;
+    background-color: #4b4444;
+	border : 10px solid black;
+	padding : 20px 0px 20px 0px;
+    background-image: url('media/LogoJO.png'),url('media/LogoP2024.png');
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: 110px, 50px;
+}
+
+section.section_index{
+    text-align: center;
+}
+section.section_index article{
+    margin: 20px auto 20px auto;
+}
+section.section_index a{
+    text-decoration: none;
+    color: white;
+}
+section.section_index h3{
+    margin:0 auto 0 auto;
+    max-width: 500px;
+    height: 400px;
+    border: 3px solid black;
+    border-bottom: 0;
+    color: inherit;
+}
+section.section_index h3.Mcase1 {
+	background-image:url("media/jeux.jpg");
+	background-position : right bottom;
+	background-repeat : no-repeat;
+}
+section.section_index h3.Mcase2 {
+	background-image:url("media/feuu.jpg");
+	background-position : center top;
+	background-repeat : no-repeat;
+}
+
+
+section.section_index h3.Mcase3 {
+	background-image : url("media/Halloffame3.png");
+	background-repeat : no-repeat;
+}
+
+
+section.section_index h3.Mcase4{
+	background-image:url("media/hist.jpg");
+	background-position : left;
+	background-repeat : no-repeat;
+}
+section.section_index h3.dernier{
+    border-bottom: 3px solid black;
+	background-image:url("media/DYK.png");
+    background-color: white;
+	background-position : center;
+	background-repeat : no-repeat;
+	background-size : 60%;
+}
+
+
+section.section_index a{
+    text-decoration: none;
+    color: black;
+}
+
+header.Selec_JO{
+    text-align                  : center;
+    background-color            : #3e3e3e;
+    color                       : #c9c9c9;
+    height                      : 75px;
+    box-shadow                  : 0px 5px 0px #7e7e7e; 
+}
+header.Selec_JO>h1{
+    margin                      : 0px;
+    padding                     : 10px;
+}
+
+
+
+header.Selec_JOH{
+    text-align                  : center;
+    background-color            : blue;
+    color                       : #ffffff;
+    padding-bottom              : 20px;
+    box-shadow                  : 0px 5px 0px #0a0ac7; 
+}
+header.Selec_JOH>h1{
+    margin                      : 0px;
+    padding                     : 10px;
+}
+header.Selec_JOH>nav{
+}
+header.Selec_JOH>nav>a{
+    background-color            : white;
+    color                       : blue;
+    padding                     : 5px;
+    text-decoration             : none;
+    display                     : block;
+    width                       : 100%;
+}
+header.Selec_JOH>nav>a:hover{
+    background-color            : #000080;
+    color                       : white; 
+}
+
+
+
+header.Selec_JOE{
+    text-align                  : center;
+    background-color            : #f21c1c;
+    color                       : #ffffff;
+    padding-bottom              : 20px;
+    box-shadow                  : 0px 5px 0px #c61818; 
+}
+header.Selec_JOE>h1{
+    margin                      : 0px;
+    padding                     : 10px;
+}
+header.Selec_JOE>nav{
+    padding                     : 0;
+}
+header.Selec_JOE>nav>a{
+    background-color            : white;
+    color                       : #b41717;
+    padding                     : 5px;
+    text-decoration             : none;
+    display                     : block;
+    width                       : 100%;
+}
+header.Selec_JOE>nav>a:hover{
+    background-color            : #b41717;
+    color                       : white; 
+}
+
+
+header.header_sportH{
+    text-align                  : center;
+    background-color            : blue;
+    box-shadow                  : 0px 5px 0px #0404b7; 
+}
+header.header_sportH>h1{
+    color                       : white;
+    padding                     : 5px;
+    margin                      : 0;
+}
+header.header_sportH>nav{
+    padding                     : 0px;
+}
+header.header_sportH>nav>ul{
+    padding                     : 0;
+}
+header.header_sportH>nav>ul>li{
+    background-color            : white;
+    color                       : #0404b7;
+    padding                     : 5px;
+    display                     : block;
+    width                       : 100%;
+}
+header.header_sportH>nav>ul>li:hover{
+    color                       : white;
+    background-color            : #0404b7;
+}
+header.header_sportH>nav>ul>li>a{
+    text-decoration             : none;
+    color                       : inherit;
+}
+
+
+
+header.header_sportE{
+    text-align                  : center;
+    background-color            : red;
+    box-shadow                  : 0px 5px 0px #be0000; 
+}
+header.header_sportE>h1{
+    color                       : white;
+    padding                     : 5px;
+    margin                      : 0;
+}
+header.header_sportE>nav{
+    padding                     : 0px;
+}
+header.header_sportE>nav>ul{
+    padding                     : 0;
+}
+header.header_sportE>nav>ul>li{
+    background-color            : white;
+    color                       : #be0000;
+    list-style-type             : none;
+    padding                     : 5px;
+    display                     : block;
+    width                       : 100%;
+}
+header.header_sportE>nav>ul>li:hover{
+    color                       : white;
+    background-color            : #be0000;
+}
+header.header_sportE>nav>ul>li>a{
+    text-decoration             : none;
+    color                       : inherit;
+ 
+}
+header.header_source {
+	text-align : center;
+	color: #b5b5b5;
+    background-color: #4b4444;
+	border : 10px solid black;
+	padding : 20px 0px 20px 0px;
+    background-image: url('media/LogoJO.png'),url('media/LogoP2024.png');
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: 110px, 50px;
+}
+header.header_source>nav>a{
+    background-color            : #6a6a6a;
+    color                       : #000000;
+    padding                     : 5px;
+    margin                      : 10px;
+    text-decoration             : none;
+}
+header.header_source>nav>a:hover{
+    background-color            : #393939;
+    color                       : #7e7e7e;
+    box-shadow                  : 5px 5px 0px #030303;
+    border-radius               : 5px; 
+}
+section.section_source{
+    width:500px;
+    margin: 20px auto 20px auto;;
+}
+section.section_source img{
+    max-width: 500px;
+}
+
+
+
+section.sec_sport{
+    margin                      : auto;
+    width                       : 100%;
+    background-color            : darkgrey;
+}
+section.sec_sport>h1{
+    text-align                  : center;
+    padding                     : 10px;
+    margin-top                  : 0;
+    margin                      : 40px;
+    border-bottom               : 3px solid white;
+}
+section.sec_sport>article{
+    text-align: center;
+}
+section.sec_sport>article>a{
+
+    margin                      : auto;
+    text-decoration             : none;
+    color                       : #332d2d;
+    background-color            : #b4b4b4;
+    border                      : 1px solid #3e3333;
+    padding                     : 20px;
+}
+section.sec_sport>article>a:hover{
+    color                       : #b4b4b4;
+    background-color            : #332d2d;
+    box-shadow                  : 5px 5px 0px #1c1818;
+}
+section.sec_sport>article>h3{
+    text-align                  : center;
+}
+section.sec_sport>article>p{
+    margin                      : 50px;
+}
+section.sec_sport>article>figure>img{
+    width                       :300px;
+
+}
+section.sec_sport>article.athletes>figure>a>img{
+    width                       :300px;
+
+}
+section.sec_sport>article.athletes>figure>a{
+    text-decoration             : none;
+    color                       : #242121;
+
+}
+section.sec_sport>article.athletes>h3{
+    text-align                  : center;
+}
+
+
+p.Info_Projet{
+    font-size                   : 10px;
+    color                       : white;
+    background-color            : black;
+    margin                      : 0px;
+}
+
+
+
+section.Sec_JOete{
+    background-color            : silver;
+    width                       : 100%;
+    margin                      : 20px auto 30px auto;
+}
+section.Sec_JOhiver{
+    background-color            : silver;
+    width                       : 100%;
+    margin                      : 20px auto 30px auto;
+}
+section.Sec_JOhiver>a,section.Sec_JOete>a{
+    text-decoration             : none;
+    color                       : black;
+}
+section.Sec_JOhiver>a>article:hover,section.Sec_JOete>a>article:hover{
+    color                       : white;
+    background-color            : #393636;
+}
+section.Sec_JOhiver>a>article,section.Sec_JOete>a>article{
+    text-align                  : center;
+    margin                      : 0;
+    padding                     : 50px;
+}
+section.Sec_JOhiver>a>article>p,section.Sec_JOete>a>article>p{
+    margin                      : 0;
+}
+section.Sec_JOhiver>a>article>img,section.Sec_JOete>a>article>img{
+    border-radius               : 50%;
+}
+
+
+article.Article_clair{
+    background-color            : silver;
+}
+article.Article_fonce{
+    background-color            : grey;
+}
+
+
+
+section.Sec_categ{
+    background-color            : silver;
+    width                       : 100%;
+    margin                      : 20px auto 30px auto;
+    padding                     : 20px;;
+}
+
+
+
+article.Categ_hiver{          
+    text-align                  : center;
+    margin                      : auto;
+    margin-bottom               : 10px;
+    border                      : 3px solid #0000ff;
+    color                       : black;
+    padding                     : 30px;
+    width                       : 90px;
+    height                      : 90px;
+    border-radius               : 50%; 
+}
+
+article.Categ{          
+    text-align                  : center;
+    margin                      : auto;
+    margin-bottom               : 10px;
+    border                      : 3px solid black;
+    color                       : black;
+    padding                     : 30px;
+    width                       : 90px;
+    height                      : 90px;
+    border-radius               : 50%; 
+}
+article.Categ>h3{
+    margin-top                  : 30px;
+}
+
+article.Categ_ete{          
+    text-align                  : center;
+    margin                      : auto;
+    margin-bottom               : 10px;
+    border                      : 3px solid #ff0000;
+    color                       : black;
+    padding                     : 30px;
+    width                       : 90px;
+    height                      : 90px;
+    border-radius               : 50%; 
+}
+
+article.Categ_retour{        
+    text-align                  : center;
+    margin                      : auto;
+    margin-bottom               : 10px;
+    border                      : 3px solid green;
+    color                       : black;
+    padding                     : 30px;
+    width                       : 90px;
+    height                      : 90px;
+    border-radius               : 50%; 
+}
+article.Categ_retour>h3{
+    margin-top                  : 10px;
+}
+
+article.Categ_img{         
+    text-align                  : center;
+    margin                      : auto;
+    margin-bottom               : 10px;
+    border                      : 3px solid yellow;
+    color                       : black;
+    padding                     : 30px;
+    width                       : 90px;
+    height                      : 90px;
+    border-radius               : 50%; 
+}
+article.Categ_img>img{
+    width                       : 70px;
+    height                      : 90px;
+}
+
+a.lien_SelecJO{
+    text-decoration             : none;
+}
+
+article.Categ_img:hover,article.Categ_retour:hover,article.Categ_ete:hover,article.Categ_hiver:hover{
+    background-color            : grey;
+    color                       : #bababa;
+    box-shadow                  : 5px 5px 0px #4d4d4d;
+}
+h1.Fact{
+	padding-bottom: 0px
+} 
+header.header_fact {
+	text-align : center;
+	color: #b5b5b5;
+    background-color: #4b4444;
+	border-top : 10px solid black;
+	padding : 20px 0px 20px 0px;
+    background-image: url('media/LogoJO.png'),url('media/LogoP2024.png');
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-size: 110px, 50px;
+}
+section.sec_Fact article{
+	text-align: center;
+	color:Black;
+	padding-left:100px; 
+	padding-right:100px;
+	border:10px solid white;
+	border-radius:5px;
+}
+body.Fact{
+	background-color:DarkGrey;
+}
+p.Fact{
+     color:Black
+} 
+
+footer.index_footer{
+    background-color            : #4b4444;
+    text-align                  : center;
+    padding                     : 10px;
+    border                      : 3px solid black;
+}
+footer.index_footer>a{
+    text-decoration             : none;
+    color                       : #b5b5b5;
+}
+footer.index_footer>a:hover{
+    color                       : #000000;
+}
+footer.index_footer img{
+    max-width                   : 30px;
+}
+.guibody{
+	background-color:white;
+	margin:0;
+}
+.guiheader{
+	font-family:arial;
+	text-align:center;
+	background-color:gold;
+	padding-bottom:20px;
+	box-shadow:0px 6px 0px rgb(255, 204, 0) ;
+	
+	
+	
+}
+.guia:hover{
+	background-color:rgb(255, 153, 0);
+	border-radius:5px;
+	color:white;
+	font-weight:bold;
+	
+}
+.guia{
+	list-style-type:none;
+	color:gold;
+	background-color:white;
+	text-decoration:none;
+	padding:5px;
+	font-weight:bold;
+	
+	
+}
+.guih1{
+	
+	
+    color:white;
+	padding-bottom:20px;
+	padding-top:10px;
+	font-size:50px;
+	margin:0;
+	
+
+
+}
+.guicaption{
+	font-family:arial;
+	text-indent:20px;
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom: 15px;
+    margin-top: 10px;
+    
+	
+	
+	
+}
+.guitable{
+	border-collapse: collapse;
+	margin:2px;
+	border:4px solid black;
+	margin:20px;
+	text-align:center;
+	margin-left:10px;
+	margin-right:10px;
+	font-family:arial;
+    max-width: 80%;
+
+}
+.guitable td{
+	padding:5px;
+    font-size: 13px;
+    
+}
+.guitr{ 
+	background-color:LightGrey;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   
+}
+.guitr2{ 
+	background-color:rgb(179, 179, 179);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    
+}
+
+.guitrup{
+	border:4px solid black;
+    background-color:gold;
+}
+.guitd{
+	font-weight:bold;
+   
+}
+.guior{
+	background-image:url("or.jpg");
+}
+.guicaption2{
+	caption-side: bottom;
+	margin-top: 10px;
+	color: black;
+}  
+.guiimg{
+    border: 2px solid black;
+    float:left;
+    
+    
+}
+.guiimg2{
+    border: 2px solid black;
+    float:right;
+    
+    
+}
+header.hist {
+	background-color : rgb(175,238,238);
+	border : 3px solid black;
+	text-align : center;
+	font-size : 150%;
+	padding : 1% 0% 2% 0%;
+	margin : 0% 0% 0% 0%;
+	
+}
+
+header.hist h1{
+ padding : 50px;
+	
+}
+
+section.Sec_histoire h2 {
+    background-color: darkslategray;
+    font-size : 25px;
+    text-align : left;
+    font-style: italic;
+    color : white;
+    margin-top:0;
+}
+section.Sec_histoire>article{
+	color : black;
+	text-align : justify;
+	font-weight : normal;
+	font-size : 85%;
+	border : 2px solid rgb(0,206,209);
+	padding : 0% 0% 2% 0%;
+	margin :  50px 1% 50px 1%;
+	background-color : 	rgb(175,238,238);
+}
+section.Sec_histoire>article>p{
+	margin : 2%;
+}
+
+section.Sec_histoire span{
+    font-size:35px;
+}
+section.Sec_histoire img{
+    max-width: 500px;
+}
+.article_hist{
+    height : 250px;
+}
+.article_hist p.legende{
+    width : 500px;
+    margin: 0 200px;
+}
+.article_hist img{
+    float : left;
+    width : 75px;
+}
+
