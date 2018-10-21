@@ -11,11 +11,12 @@
         <p class="Info_Projet">Projet ProgWeb 2A</p>
         <header class="Selec_JOH">
             <h1>Accueil</h1>
+            <p>zibgizub</p>
             <nav>
                 <a href="JeuxOlympiques.html">Retourner à la sélection de période</a>
                 <a href="Index.html">Retourner à la page principale</a>
 
-                
+
             </nav>
         </header>
     </body>
