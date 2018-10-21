@@ -19,7 +19,7 @@ if(isset($_POST['valider_creerNews'])) {
     $insert_news = $objPdo->prepare("INSERT INTO news (idtheme,titrenews,datenews,textenews,idredacteur) VALUES($v_idtheme, $v_titre, $v_date, $v_texte, $v_idredacteur)");
     $insert_news->execute();
 
-    header("location: index.php");
+    header("location: index.html");
   }
 }
 
@@ -34,9 +34,9 @@ if(isset($_POST['submit'])=='ajouterRedacteur'){
     $insert_stmt = $objPdo->prepare("INSERT INTO redacteur (nom,prenom,mail,motdepasse) VALUES($v_nom, $v_prenom, $v_mail, $v_mdp)");
     $insert_stmt->excute();
 
-    header("location: index.php");
+    header("location: index.html");
 
   }
 }
-header("location: index.php");
+header("location: index.html");
 ?>
