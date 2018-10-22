@@ -1,8 +1,6 @@
 <html>
 <head>
-    <title>
-        Creer News
-    </title>
+    <title>Creer News</title>
     <?php
     include_once("connexion.php");
     if(isset($_POST['valider_creerNews'])) {

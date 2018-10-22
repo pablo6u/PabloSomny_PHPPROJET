@@ -5,7 +5,7 @@
         <link rel="stylesheet" media="screen and (min-width:721px)" href="style.css">
         <link rel="stylesheet" media="screen and (max-width:720px)" href="mobile.css">
         <meta name="viewport" content="width=max-device-width, initial-scale=1">
-        
+
     </head>
 
     <body>
@@ -14,9 +14,10 @@
             <h1>Accueil</h1>
             <p>zibgizub</p>
             <nav>
-                <a href="JeuxOlympiques.html">Retourner à la sélection de période</a>
-                <a href="Index.html">Retourner à la page principale</a>
-
+                <a href="creerCompte.php">Creer un compte</a>
+                <a href="creerNews.php">Creer une news</a>
+                <a href="identificaton.php">Vous connecter</a>
+                <a href=""
 
             </nav>
         </header>
