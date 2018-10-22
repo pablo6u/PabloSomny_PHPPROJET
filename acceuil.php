@@ -9,8 +9,8 @@
     </head>
 
     <body>
-        <p class="Info_Projet">Projet ProgWeb 2A</p>
-        <header class="Selec_JOH">
+        <p>Projet ProgWeb 2A</p>
+        <header>
             <h1>Accueil</h1>
             <br/>
             <nav>
