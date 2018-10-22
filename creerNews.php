@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>
-        Accueil
+        Creer News
     </title>
     <?php
     include_once("connexion.php");
@@ -9,6 +9,7 @@
       if (isset($_POST['titre']) && isset($_POST['theme']) && isset($_POST['date']) && isset($_POST['texte'])) {
         $v_titre=$_POST['titre'];
         $v_theme=$_POST['theme'];
+        var_dump($_POST['theme']);
         $v_idtheme=1;
         $v_date=$_POST['date'];
         $v_texte=$_POST['texte'];
@@ -16,15 +17,22 @@
 
         $result = $objPdo->query("select * from theme");
         while($row = $result->fetch()){
-          if ($row['designation']==$v_theme){
-            $v_idtheme=$row['idtheme'];
+          if ($row['description']==$v_theme){
+            $v_idtheme = $row['idtheme'];
+            echo "theme trouve";
           }
         }
 
-        $insert_news = $objPdo->prepare("INSERT INTO news (idtheme,titrenews,datenews,textenews,idredacteur) VALUES($v_idtheme, $v_titre, $v_date, $v_texte, $v_idredacteur)");
-        $insert_news->execute();
+        $insert_stmt = $objPdo->prepare('INSERT INTO news (idtheme,titrenews,datenews,textenews,idredacteur) VALUES(?,?,?,?,?)');
+        $insert_stmt->bindValue(1, $v_idtheme);
+        $insert_stmt->bindValue(2, $v_titre);
+        $insert_stmt->bindValue(3, $v_date);
+        $insert_stmt->bindValue(4, $v_texte);
+        $insert_stmt->bindValue(5, $v_idredacteur);
 
-        header("location: index.php");
+
+
+        $insert_stmt->execute();
       }
     }
     ?>
@@ -38,7 +46,7 @@
             <?php
             $result = $objPdo->query("select * from theme");
             while($row = $result->fetch()){
-                echo "<option>".$row ['description']."</option>";
+                echo "<option>".$row['description']."</option>";
             }
             ?>
         </select><br />

@@ -5,9 +5,7 @@
         <link rel="stylesheet" media="screen and (min-width:721px)" href="style.css">
         <link rel="stylesheet" media="screen and (max-width:720px)" href="mobile.css">
         <meta name="viewport" content="width=max-device-width, initial-scale=1">
-        <?php
-          session_start();
-         ?>
+        
     </head>
 
     <body>
