@@ -12,12 +12,11 @@
         <p class="Info_Projet">Projet ProgWeb 2A</p>
         <header class="Selec_JOH">
             <h1>Accueil</h1>
-            <p>zibgizub</p>
+            <br/>
             <nav>
                 <a href="creerCompte.php">Creer un compte</a>
                 <a href="creerNews.php">Creer une news</a>
                 <a href="identificaton.php">Vous connecter</a>
-                <a href=""
 
             </nav>
         </header>
