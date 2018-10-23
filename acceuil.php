@@ -15,7 +15,7 @@
             <nav>
                 <a href="creerCompte.php">Creer un compte</a>
                 <a href="creerNews.php">Creer une news</a>
-                <a href="identificaton.php">Vous connecter</a>
+                <a href="identificaton.php">Connection</a>
             </nav>
         </header>
     </body>
