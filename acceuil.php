@@ -9,7 +9,7 @@
 
     <body>
         <p>Projet ProgWeb 2A</p>
-        <header class=".header">
+        <header>
             <h1>Accueil</h1>
             <br/>
             <nav>
