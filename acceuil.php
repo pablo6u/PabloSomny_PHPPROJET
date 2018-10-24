@@ -11,11 +11,12 @@
         <p>Projet ProgWeb 2A</p>
         <header>
             <h1>Accueil</h1>
+            <p>BONJOUR MONDE</p>
             <br/>
             <nav>
                 <a href="creerCompte.php">Creer un compte</a>
                 <a href="creerNews.php">Creer une news</a>
-                <a href="identificaton.php">Connection</a>
+                <a href="identification.php">Connection</a>
             </nav>
         </header>
     </body>
